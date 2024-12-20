@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
+
+}
+
+header{
+    background-image: url(img.avif);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+nav{
+    height: 72px;
+    display: flex ;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding-top: 20px;
+
+}
+a{
+color: #fff;
+text-decoration: none;
+font-size: 15px;
+
+}
+#option ul {
+    color: #fff;
+    display: flex;
+    gap: 40px;
+    width: 300;
+    
+
+}
+#main{
+    height: calc(70vh-72px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main #logo img{
+    width: 330px;
+    
+}
+#main #title h1{
+    color: #fff;
+    font-weight: 300;
+    margin: 30px 0px;
+}
+#serachcontainer{
+    display: flex;
+    background-color: #fff;
+    width: 55%;
+    border-radius: 10px;
+    padding: 18px 28px;
+}
+
+#serachcontainer #city{
+    border-right: 2px solid #cfcfcf;
+    padding-right: 28px;
+    margin-right: 40px;
+}
+
+#serachcontainer input{
+    border: none;
+}
+#serachcontainer#restuarent{
+    margin-left: 20px;
+}
+#restuarent span{
+    margin-right: 10px;
+    padding-right:20x;
+}
+#main-body{
+    
+    width: 100%;
+    max-width: 1270px;
+    margin: 0 auto 60px;
+    margin-top:100px;
+}
+#services{
+    
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    display: flex;
+    gap: 20px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 12px;
+    
+    
+}
+#services #option{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+    object-fit: cover;
+    /* justify-content: space-evenly; */
+}
+#services #option #img{
+    height: 100%;
+    width: 100%;
+    /* margin: 10px; */
+    /* justify-content: center;
+    align-items: center; */
+}
+#option #img img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-radius: 12px;
+    /* object-fit: cover; */
+    /* margin: top; */
+    object-position: bottom center;
+}
+#info{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    border: 2px solid #eee;
+    padding: 10px 20px 16px 20px;
+    border-radius: 0 0 12px 12px;
+    line-height: 30px;
+}
+#info h2{
+    font-size: 20px;
+    color: #363636;
+    font-weight: 500;
+
+}
+#info p{
+    font-size: 16px;
+    color: #4f4f4f;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
